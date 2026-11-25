@@ -1,0 +1,35 @@
+CNN Fashion MNIST - Model Performance Report
+=============================================
+
+Dataset:
+Fashion MNIST
+
+Training Images: 60000
+Testing Images: 10000
+Image Size: 28 x 28
+Number of Classes: 10
+
+Model:
+Convolutional Neural Network (CNN)
+
+Training Configuration:
+Epochs: 10
+Batch Size: 64
+Optimizer: Adam
+Loss Function: Sparse Categorical Crossentropy
+
+Model Performance:
+Training Accuracy: 91.58%
+Validation Accuracy: 91.48%
+Testing Accuracy: 90.85%
+Test Loss: 0.2612
+
+Evaluation:
+Confusion Matrix
+Classification Report
+Actual vs Predicted Images
+
+Conclusion:
+The CNN model successfully classifies Fashion MNIST
+images into 10 different clothing categories.
+The model achieved 90.85% testing accuracy.
